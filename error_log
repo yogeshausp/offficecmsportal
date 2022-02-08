@@ -1,0 +1,5 @@
+[21-Sep-2021 15:53:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'employeeportal_user'@'localhost' (using password: YES) in /home/seosolu1/public_html/employeeportal/test.php on line 9
+[21-Sep-2021 15:53:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'employeeportal_user'@'localhost' (using password: YES) in /home/seosolu1/public_html/employeeportal/test.php on line 9
+[21-Sep-2021 15:55:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'employeeportal_user'@'localhost' (using password: YES) in /home/seosolu1/public_html/employeeportal/test.php on line 8
+[21-Sep-2021 15:55:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'employeeportal_user'@'localhost' (using password: YES) in /home/seosolu1/public_html/employeeportal/test.php on line 8
+[22-Sep-2021 17:23:30 UTC] PHP Fatal error:  Declaration of Illuminate\Container\Container::get($id) must be compatible with Psr\Container\ContainerInterface::get(string $id) in /home/seosolu1/public_html/employeeportal/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
