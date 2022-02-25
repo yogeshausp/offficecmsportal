@@ -102,7 +102,7 @@
                     <h5>Official Information</h5>
 					<div class="row">
 						<div class="col-sm-4">
-							<label for="sel1">Select Designation:</label>
+							<label for="sel1">Designation:</label>
                             <input type="text" name="designation" class="form-control" id="designation" placeholder="Enter age" value="{{$employee_detail->formatted_designation}}">
 
 
@@ -112,7 +112,7 @@
 					    </div>
 
                         <div class="col-sm-4">
-							<label for="sel1">Select Department:</label>
+							<label for="sel1">Department:</label>
                             <input type="text" name="department" class="form-control" id="department" placeholder="Enter age" value="{{$employee_detail->formatted_department}}">
 
 

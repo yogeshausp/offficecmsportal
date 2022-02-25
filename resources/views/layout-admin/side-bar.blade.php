@@ -23,7 +23,7 @@
 
 
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
@@ -53,7 +53,7 @@
                 Calendar
               </p>
             </a>
-          </li>
+          </li> -->
 
           <li class="nav-item">
             <a href="{{ url('holiday-list') }}" class="nav-link">
@@ -148,8 +148,32 @@
               </p>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-paper-plane"></i>
+              <p>
+                Project Detail
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{ url('project-add') }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ url('project-list') }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>List</p>
+                </a>
+              </li>
+              </ul>
+          </li>
           
-             <li class="nav-item">
+             <!-- <li class="nav-item">
             <a href="{{ url('projects') }}" class="nav-link">
               <i class="nav-icon far fa-calendar-alt"></i>
               <p>
@@ -202,7 +226,7 @@
           </li>
           
           
-          </li>
+          </li> -->
   
         </ul>
       </nav>

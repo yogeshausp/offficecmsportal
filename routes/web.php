@@ -90,6 +90,14 @@ Route::group(['middleware' => 'admin'], function () {
                 Route::get('/notification-delete/{id}', 'Admin\NotificationController@delete_notification')->name('notification-delete');
 
 
+                Route::get('/project-add', 'Admin\ProjectController@project_add');
+                Route::get('/project-list', 'Admin\ProjectController@index')->name('admin');
+                Route::post('/project-add', 'Admin\ProjectController@insert_project');
+                Route::get('/project-detail/{id}', 'Admin\ProjectController@get_project_detail');
+                Route::get('/project-edit/{id}', 'Admin\ProjectController@project_edit');
+                Route::post('/project-update/{id}', 'Admin\ProjectController@update_project');
+                Route::get('/project-delete/{id}','Admin\ProjectController@delete_project');
+
                 // Route::get('/calendar-event', 'CalenderController@index')->name('admin');
                 // Route::get('/calendar-crud-ajax', 'CalenderController@calendarEvents')->name('admin');
 
